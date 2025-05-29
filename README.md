@@ -75,21 +75,6 @@ To add new dependencies, update the `Pipfile` and run:
 ```bash
 pipenv install
 ```
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Support
-For issues or feature requests, please open an issue in the repository.
-
-## Contributors
-- Joyrose Kinuthia
-
-## Acknowledgments
-- SQLAlchemy for ORM.
-- Pipenv for dependency management.
-- Tabulate for CLI table formatting.
-
 # Expanded README.md with examples of CLI interactions and explanations of SQLAlchemy ORM and bcrypt.
 ## Examples of CLI Interactions
 ### User Management
@@ -151,3 +136,17 @@ Application created successfully.
 SQLAlchemy is used to define models and manage database operations. It provides an abstraction layer for interacting with the SQLite database.
 ### bcrypt
 bcrypt is used for secure password hashing, ensuring that user passwords are stored safely in the database.
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Support
+For issues or feature requests, please open an issue in the repository.
+
+## Contributors
+- Joyrose Kinuthia
+
+## Acknowledgments
+- SQLAlchemy for ORM.
+- Pipenv for dependency management.
+- Tabulate for CLI table formatting.
